@@ -1,90 +1,68 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  body{
-    background-color: #d3dfedff;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    padding: 25%;
-  }
-  
-  header {
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .contenedor{
-    background-color: #ffffffff;
-    width: 300px;
-    height: 455px;
-    margin-top: 160px;
-    margin-left: 525px;
-    margin-bottom: 140px;
-    border-radius: 20px;
-  }
+body {
+  background-color: #d3dfedff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
 
-  .QR_Frontend {
-    width: 82%;
-    height: 17%;
-    margin: 166px 328px 0px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 27px;
-    border-radius: 10px;
-  }
+.contenedor {
+  background-color: #ffffffff;
+  width: 14em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 1em 3em 1em;
+  margin-top: 15em;
+  border-radius: 15px;
+}
 
-  .primer_text {
-    width: 227px;
-    margin-top: 32px;
-    margin-bottom: 33px;
-    margin-left: 36px;
-    margin-right: 24px;
-    font-family: Calibri;
-    font-weight: bold;
-    font-size: 20px;
-  }
+.QR_Frontend {
+  width: 14em;
+  border-radius: 15px;
+}
 
-  .attribution {
-    align-content: center;
-    font-size: 19px;
-    font-family: Calibri;
-    color: hsl(227, 10%, 46%)
-  }
+#qr_image {
+  display: flex;
+  justify-content: center;
+}
+
+.text-1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.primer_text {
+  width: 100%;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.segundo_text {
+  width: 100%;
+  font-family: Calibri;
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+
 
 /* Resposive design*/
 
-@media (max-width:800px) {
+@media (max-width:400px) {
 
 
-    .contenedor{
-        background-color: #ffffffff;
-        width: 283px;
-        margin-top: 67px;
-        margin-left: 250px;
-        border-radius: 20px;
-      }
-
-
-}
-@media (max-width:500px) {
-
-
-    .contenedor{
-        background-color: #ffffffff;
-        width: 283px;
-        margin-top: 70px;
-        margin-left: 87px;
-        border-radius: 20px;
-      }
+  .contenedor {
+    background-color: #ffffffff;
+    width: 283px;
+    margin-top: 67px;
+    margin-left: 250px;
+    border-radius: 20px;
+  }
 
 
 }
